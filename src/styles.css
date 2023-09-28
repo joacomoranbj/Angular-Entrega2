@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+/* Estilos para la lista de alumnos */
+ul {
+    list-style-type: none; /* Quita los puntos de la lista */
+    padding: 0; /* Elimina el espacio interior del elemento ul */
+  }
+  
+  li {
+    padding: 10px; /* Espacio interno para cada elemento de la lista */
+    border: 1px solid #ccc; /* Borde alrededor de cada elemento */
+    margin-bottom: 10px; /* Espacio entre elementos de la lista */
+    background-color: #f7f7f7; /* Color de fondo */
+  }
+  
+  /* Estilos para resaltar alumnos destacados */
+  .destacado {
+    background-color: #afffaf; /* Cambia el fondo para los alumnos destacados */
+    font-weight: bold; /* Texto en negrita para destacados */
+  }
+  
+  /* Estilos para alumnos reprobados */
+  .reprobado {
+    background-color: #ffafaf; /* Cambia el fondo para los alumnos reprobados */
+    font-weight: bold; /* Texto en negrita para reprobados */
+  }
+  
